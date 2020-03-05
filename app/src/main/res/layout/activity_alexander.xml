@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
@@ -13,38 +14,38 @@
             app:srcCompat="@mipmap/cocktailamericano" />
 
         <TextView
-            android:id="@+id/americano_uno"
+            android:id="@+id/alexander_uno"
             android:layout_width="130dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Bitter Rosso" />
+            android:text="3 cl Cognàc"
+            />
 
         <TextView
             android:layout_width="130dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-            android:text="1 oz Vermouth Rosso"
-            android:id="@+id/americano_due"
-            />
+            android:text="3 cl Créme De Cacao Scura"
+            android:id="@+id/alexander_due"
+            tools:ignore="RtlCompat" />
 
          <TextView
-            android:layout_width="130dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-
-            android:text="Spruzzo di Soda" />
+        android:id="@+id/uno"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="3 cl di Panna Fresca" />
 
     <Button
         android:layout_width="130dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"
-        android:id="@+id/americano_storia"
+        android:id="@+id/alexander_storia"
         />
 </LinearLayout>

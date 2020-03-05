@@ -5,13 +5,13 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class MainActivity_Alabama extends AppCompatActivity
+public class MainActivity_AppleMartini extends AppCompatActivity
 {
 
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alabama_slammer);
+        setContentView(R.layout.activity_apple_martini);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

@@ -19,6 +19,17 @@
 
         <activity android:name=".MainActivity_Alabama"
             android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".MainActivity_Americano"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity
+        android:name=".MainActivity_Alexander"
+        android:parentActivityName=".MainActivity">
 
         </activity>
     </application>
