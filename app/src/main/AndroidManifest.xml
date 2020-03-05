@@ -86,16 +86,32 @@
             android:parentActivityName=".MainActivity">
 
         </activity>
-        <!-- esempio di commento
 
-<activity></activity>
-<activity></activity>
-<activity></activity>
-<activity></activity>
-<activity></activity>
-<activity></activity>
-<activity></activity>
-<activity></activity>
+        <activity
+            android:name=".MainActivity_Black_Russian"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity_Bloody_Mary"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity_Boulevardier"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity_Bramble"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity_Brandy_Egg_Nog"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity_Bronx"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity_Bucks_Fizz"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity_Bull_Shot"
+            android:parentActivityName=".MainActivity"></activity>
+<!-- esempio di commento
 <activity></activity>
 <activity></activity>
 <activity></activity>

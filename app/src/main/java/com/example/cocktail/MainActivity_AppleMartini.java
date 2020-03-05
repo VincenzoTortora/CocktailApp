@@ -13,6 +13,8 @@ public class MainActivity_AppleMartini extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_apple_martini);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Apple Martini");
+
     }
 
 

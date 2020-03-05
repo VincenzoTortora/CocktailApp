@@ -13,6 +13,7 @@ public class MainActivity_Bellini extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_americano);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Bellini");
     }
 
 

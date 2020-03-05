@@ -13,6 +13,8 @@ public class MainActivity_B52 extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_b52);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("B52");
+
     }
 
 

@@ -13,6 +13,8 @@ public class MainActivity_Bacardi_Cocktail extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_americano);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Bacardi Cocktail");
+
     }
 
 

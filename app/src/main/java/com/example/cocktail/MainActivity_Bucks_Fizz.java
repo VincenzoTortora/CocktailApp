@@ -5,7 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class MainActivity_Americano extends AppCompatActivity
+public class MainActivity_Bucks_Fizz extends AppCompatActivity
 {
 
     protected void onCreate(Bundle savedInstanceState)
@@ -13,8 +13,7 @@ public class MainActivity_Americano extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_americano);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        setTitle("Americano");
-
+        setTitle("Buck's Fizz");
     }
 
 

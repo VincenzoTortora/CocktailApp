@@ -13,6 +13,7 @@ public class MainActivity_Barracuda extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_americano);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Barracuda");
     }
 
 

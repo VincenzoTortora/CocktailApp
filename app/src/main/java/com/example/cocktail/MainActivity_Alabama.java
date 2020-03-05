@@ -13,6 +13,7 @@ public class MainActivity_Alabama extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alabama_slammer);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Alabama Slammer");
     }
 
 

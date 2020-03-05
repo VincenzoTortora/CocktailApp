@@ -13,6 +13,8 @@ public class MainActivity_AngeloAzzurro extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_angelo_azzurro);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Angelo Azzurro");
+
     }
 
 

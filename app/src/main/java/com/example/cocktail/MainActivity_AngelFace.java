@@ -13,6 +13,8 @@ public class MainActivity_AngelFace extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_angel_face);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Angel Face");
+
     }
 
 

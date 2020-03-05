@@ -13,6 +13,8 @@ public class MainActivity_Aviaton extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aviaton);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Aviaton");
+
     }
 
 

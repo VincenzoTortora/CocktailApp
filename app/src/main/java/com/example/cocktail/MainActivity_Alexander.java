@@ -13,6 +13,8 @@ public class MainActivity_Alexander extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alexander);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Alexander");
+
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Between_The_Sheets extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_americano);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Between The Sheets");
     }
 
 
