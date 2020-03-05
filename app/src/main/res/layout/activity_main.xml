@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_Alabama_Slammer"
+            android:layout_width="162dp"
+            android:layout_height="46dp"
+            android:text="Alabama Slammer" />
+
+        <Button
+            android:id="@+id/button_Americano"
+            android:layout_width="162dp"
+            android:layout_height="46dp"
+            android:text="Americano" />
+        <Button
+            android:id="@+id/button_Alexander"
+            android:layout_width="162dp"
+            android:layout_height="46dp"
+            android:text="Alexander"/>
+        <Button
+            android:id="@+id/button_Angel_Face"
+            android:layout_width="162dp"
+            android:layout_height="46dp"
+            android:text="Angel Face"/>
+        <Button
+            android:id="@+id/button_Angelo_Azzurro"
+            android:layout_width="162dp"
+            android:layout_height="46dp"
+            android:text="Angelo Azzurro"/>
+        <Button
+            android:id="@+id/button_Apple_MArtini"
+            android:layout_width="162dp"
+            android:layout_height="46dp"
+            android:text="Apple Martini"/>
+        <Button
+            android:id="@+id/button_Aviatorn"
+            android:layout_width="162dp"
+            android:layout_height="46dp"
+            android:text="Aviatorn"/>
+        <Button
+            android:id="@+id/button_B52"
+            android:layout_width="162dp"
+            android:layout_height="46dp"
+            android:text="B52"/>
+
+
+
+
+</LinearLayout>
