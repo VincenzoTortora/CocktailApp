@@ -22,16 +22,185 @@
         </activity>
 
         <activity
+            android:name=".MainActivity_Alexander"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
             android:name=".MainActivity_Americano"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+
+
+        <activity
+            android:name=".MainActivity_AngelFace"
             android:parentActivityName=".MainActivity">
 
         </activity>
 
         <activity
-        android:name=".MainActivity_Alexander"
-        android:parentActivityName=".MainActivity">
+            android:name=".MainActivity_AngeloAzzurro"
+            android:parentActivityName=".MainActivity">
 
         </activity>
+
+        <activity
+            android:name=".MainActivity_AppleMartini"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity_Aviaton"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity_B52"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity_Bacardi_Cocktail"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity_Barracuda"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity_Bellini"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity_Between_The_Sheets"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <!-- esempio di commento
+
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>
+<activity></activity>-->
+
     </application>
 
 </manifest>

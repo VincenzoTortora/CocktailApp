@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.a_activity_main);
 
         Button alabama = (Button) findViewById(R.id.button_Alabama_Slammer);
         alabama.setOnClickListener(new View.OnClickListener() {
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button appleMartini = (Button) findViewById(R.id.button_Apple_MArtini);
+        Button appleMartini = (Button) findViewById(R.id.button_Apple_Martini);
         appleMartini.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,5 +91,1185 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        Button bacardi_cocktail = (Button) findViewById(R.id.button_Bacardi_Cocktail);
+        bacardi_cocktail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_Bacardi_Cocktail.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button barracuda = (Button) findViewById(R.id.button_Barracuda);
+        barracuda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_Barracuda.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button bellini = (Button) findViewById(R.id.button_Bellini);
+        bellini.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_Bellini.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button between_the_sheets = (Button) findViewById(R.id.button_Between_The_Sheets);
+        between_the_sheets.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_Between_The_Sheets.class);
+                startActivity(intent);
+            }
+        });
+
+/**
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button b52 = (Button) findViewById(R.id.button_B52);
+        b52.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                startActivity(intent);
+            }
+        });
+
+*/
     }
 }
