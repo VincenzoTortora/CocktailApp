@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/boulevardier" />
+
+    <TextView
+        android:id="@+id/boulevader_uno"
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="4,5 cl Bourbon Whiskey" />
+
+    <TextView
+        android:id="@+id/boulevader_due"
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="3 cl Bitter Campari" />
+
+    <TextView
+        android:id="@+id/boulevader_tre"
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="3 cl Vermut Dolce" />
+
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Storia"
+        android:id="@+id/americano_storia"
+        />
+</LinearLayout>

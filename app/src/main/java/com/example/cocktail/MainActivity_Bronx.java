@@ -11,7 +11,7 @@ public class MainActivity_Bronx extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_americano);
+        setContentView(R.layout.activity_bronx);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Bronx");
     }

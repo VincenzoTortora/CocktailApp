@@ -52,7 +52,7 @@
         </activity>
 
         <activity
-            android:name=".MainActivity_Aviaton"
+            android:name=".MainActivity_Aviation"
             android:parentActivityName=".MainActivity">
 
         </activity>

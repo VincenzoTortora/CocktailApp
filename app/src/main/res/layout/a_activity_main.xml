@@ -175,57 +175,6 @@
                             android:layout_gravity="center"
                             />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:text="" />
-
-                        <Button
-                            android:id="@+id/button_bacardi_Cocktail"
-                            android:layout_width="match_parent"
-                            android:layout_height="46dp"
-                            android:text="Bacardi Cocktail"
-                            android:layout_gravity="center"
-                            />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:text="" />
-
-                        <Button
-                            android:id="@+id/button_barracuda"
-                            android:layout_width="match_parent"
-                            android:layout_height="46dp"
-                            android:text="Barracuda"
-                            android:layout_gravity="center"
-                            />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:text="" />
-
-                        <Button
-                            android:id="@+id/button_bellini"
-                            android:layout_width="match_parent"
-                            android:layout_height="46dp"
-                            android:text="Bellini"
-                            android:layout_gravity="center"
-                            />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:text="" />
-
-                        <Button
-                            android:id="@+id/button_between_the_sheets"
-                            android:layout_width="match_parent"
-                            android:layout_height="46dp"
-                            android:text="Between The Sheets"
-                            android:layout_gravity="center"
-                            />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -262,7 +211,7 @@
                             android:id="@+id/button_boulevarder"
                             android:layout_width="match_parent"
                             android:layout_height="46dp"
-                            android:text="Boulevarder"
+                            android:text="Boulevardier"
                             android:layout_gravity="center"
                             />
 

@@ -6,46 +6,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            app:srcCompat="@mipmap/cocktailamericano" />
+     <ImageView
+         android:id="@+id/imageView"
+         android:layout_width="match_parent"
+         android:layout_height="130dp"
+         android:layout_gravity="center"
+         app:srcCompat="@mipmap/angelo_azzurro" />
 
-        <TextView
-            android:id="@+id/americano_uno"
-            android:layout_width="130dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
+     <TextView
+         android:id="@+id/uno"
+         android:layout_width="280dp"
+         android:layout_height="20dp"
+         android:layout_gravity="center"
+         android:textAlignment="viewStart"
+         tools:ignore="RtlCompat"
 
-            android:text="1 oz Bitter Rosso" />
+         android:text="1,50 cl Vodka" />
 
-        <TextView
-            android:layout_width="130dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
+     <TextView
+         android:layout_width="280dp"
+         android:layout_height="20dp"
+         android:layout_gravity="center"
+         android:textAlignment="viewStart"
+         tools:ignore="RtlCompat"
 
-            android:text="1 oz Vermouth Rosso"
-            android:id="@+id/americano_due"
-            />
+         android:text="1,50 cl Rum Chiaro"
+         android:id="@+id/due"
+         />
 
-         <TextView
-        android:id="@+id/uno"
-             android:layout_width="130dp"
-             android:layout_height="20dp"
-             android:layout_gravity="center"
-             android:textAlignment="viewStart"
-             tools:ignore="RtlCompat"
+    <TextView
+        android:id="@+id/tre"
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
 
-             android:text="Spruzzo di Soda" />
+        android:text="1,50 cl Gin" />
+
+    <TextView
+        android:id="@+id/quattro"
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+
+        android:text="1,50 cl Blu Curacao" />
+    <TextView
+        android:id="@+id/cinque"
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+
+        android:text="3 cl Sour Mix" />
+
 
     <Button
-        android:layout_width="130dp"
+        android:layout_width="280dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"

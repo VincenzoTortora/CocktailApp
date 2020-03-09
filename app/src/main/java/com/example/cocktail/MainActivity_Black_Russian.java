@@ -11,7 +11,7 @@ public class MainActivity_Black_Russian extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_americano);
+        setContentView(R.layout.activity_black_russian);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Black Russian");
     }

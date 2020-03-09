@@ -7,32 +7,32 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="130dp"
+            android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_gravity="center"
-            app:srcCompat="@mipmap/cocktailamericano" />
+            app:srcCompat="@mipmap/cocktail_bacardi" />
 
         <TextView
             android:id="@+id/americano_uno"
-            android:layout_width="130dp"
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Bitter Rosso" />
+            android:text="4,5 cl Bacardi Rum Light" />
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Vermouth Rosso"
+            android:text="2 cl Succo Di Fetta Di Limone O Di Lime"
             android:id="@+id/americano_due"
             />
 
          <TextView
-            android:layout_width="130dp"
+             android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -41,7 +41,7 @@
             android:text="Spruzzo di Soda" />
 
     <Button
-        android:layout_width="130dp"
+        android:layout_width="280dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"

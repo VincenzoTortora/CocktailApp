@@ -5,43 +5,61 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            app:srcCompat="@mipmap/cocktailamericano" />
+     <ImageView
+         android:id="@+id/imageView"
+         android:layout_width="match_parent"
+         android:layout_height="130dp"
+         android:layout_gravity="center"
+         app:srcCompat="@mipmap/barracuda" />
 
-        <TextView
-            android:id="@+id/americano_uno"
-            android:layout_width="130dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-            android:text="1 oz Bitter Rosso" />
+     <TextView
+         android:id="@+id/americano_uno"
+         android:layout_width="280dp"
+         android:layout_height="20dp"
+         android:layout_gravity="center"
+         android:textAlignment="viewStart"
+         tools:ignore="RtlCompat"
+         android:text="4,5 cl Rum Oro" />
 
-        <TextView
-            android:layout_width="130dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-            android:text="1 oz Vermouth Rosso"
-            android:id="@+id/americano_due"
-            />
+     <TextView
+         android:layout_width="280dp"
+         android:layout_height="20dp"
+         android:layout_gravity="center"
+         android:textAlignment="viewStart"
+         tools:ignore="RtlCompat"
+         android:text="1,5 cl Galliano"
+         android:id="@+id/americano_due"
+         />
 
-         <TextView
-            android:layout_width="130dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
 
-            android:text="Spruzzo di Soda" />
+        android:text="6 cl Succo Fresco Di Ananas" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+
+        android:text="1 Goccia Di Succo Fresco Di Lime" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+
+        android:text="Prosecco(Per Colmare)" />
 
     <Button
-        android:layout_width="130dp"
+        android:layout_width="280dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"

@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         aviation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_Aviaton.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Aviation.class);
                 startActivity(intent);
             }
         });

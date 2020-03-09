@@ -11,7 +11,7 @@ public class MainActivity_Bull_Shot extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_americano);
+        setContentView(R.layout.activity_bull_shot);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Bull Shot");
     }

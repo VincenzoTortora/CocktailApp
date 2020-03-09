@@ -11,7 +11,7 @@ public class MainActivity_Bucks_Fizz extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_americano);
+        setContentView(R.layout.activity_bucks_fizz);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Buck's Fizz");
     }

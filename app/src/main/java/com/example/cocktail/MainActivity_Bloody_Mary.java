@@ -11,7 +11,7 @@ public class MainActivity_Bloody_Mary extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_americano);
+        setContentView(R.layout.activity_bloody_mary);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Bloody Mary");
     }

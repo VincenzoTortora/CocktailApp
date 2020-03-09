@@ -11,7 +11,7 @@ public class MainActivity_Barracuda extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_americano);
+        setContentView(R.layout.activity_barracuda);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Barracuda");
     }
