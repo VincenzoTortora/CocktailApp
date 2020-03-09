@@ -11,7 +11,7 @@ public class MainActivity_Grasshopper extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_grasshoper);
+        setContentView(R.layout.activity_grasshopper);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
