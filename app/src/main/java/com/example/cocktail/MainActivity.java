@@ -320,918 +320,908 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-/**
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
-                startActivity(intent);
-            }
-        });
 
-
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button daiquiri = (Button) findViewById(R.id.button_daiquiri);
+        daiquiri.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Daiquiri.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button daiquiriUp = (Button) findViewById(R.id.button_daiquiri_up);
+        daiquiriUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Daiquiri_Up.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button darknStormy = (Button) findViewById(R.id.button_darkn_storm);
+        darknStormy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Darkn_Stormy.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button derby = (Button) findViewById(R.id.button_derby);
+        derby.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Derby.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button dirtyMartini = (Button) findViewById(R.id.button_dirty_martini);
+        dirtyMartini.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Dirty_Martini.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button dryMartini = (Button) findViewById(R.id.button_dry_martini);
+        dryMartini.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Dry_Martini.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button espressoMartini = (Button) findViewById(R.id.button_espresso_martini);
+        espressoMartini.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Espresso_Martini.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button florida = (Button) findViewById(R.id.button_florida);
+        florida.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Florida.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button french75 = (Button) findViewById(R.id.button_french75);
+        french75.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_French75.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button frenchConn = (Button) findViewById(R.id.button_french_connection);
+        frenchConn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_French_Connection.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button frenchMartini = (Button) findViewById(R.id.button_french_martini);
+        frenchMartini.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_French_Martini.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button frozenDaiquiri = (Button) findViewById(R.id.button_frozen_daiquiri);
+        frozenDaiquiri.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Frozen_Daiquiri.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button fruitFM = (Button) findViewById(R.id.button_fruit_frozen_margarita);
+        fruitFM.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Fruit_Frozen_Margarita.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button garibaldi = (Button) findViewById(R.id.button_garibaldi);
+        garibaldi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Garibaldi.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button gibson = (Button) findViewById(R.id.button_gibson);
+        gibson.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Gibson.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button ginAF = (Button) findViewById(R.id.button_gin_and_french);
+        ginAF.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Gin_And_French.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button ginAI = (Button) findViewById(R.id.button_gin_and_it);
+        ginAI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Gin_And_It.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button ginFizz = (Button) findViewById(R.id.button_gin_fizz);
+        ginFizz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Gin_Fizz.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button godFather = (Button) findViewById(R.id.button_god_father);
+        godFather.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_God_Father.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button godMother = (Button) findViewById(R.id.button_god_mother);
+        godMother.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_God_Mother.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button goldenCad = (Button) findViewById(R.id.button_golden_cadillac);
+        goldenCad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Golden_Cadillac.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button goldenDream = (Button) findViewById(R.id.button_golden_dream);
+        goldenDream.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Golden_Dream.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button grassHopper = (Button) findViewById(R.id.button_grasshopper);
+        grassHopper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Grasshopper.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button harvey = (Button) findViewById(R.id.button_harvey_wallbanger);
+        harvey.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Harvey_Wallbanger.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button hemingway = (Button) findViewById(R.id.button_hemingway_special);
+        hemingway.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Hemingway_Special.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button horses = (Button) findViewById(R.id.button_horses_neck);
+        horses.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Horses_Neck.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button hugo = (Button) findViewById(R.id.button_hugo);
+        hugo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Hugo.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button irish = (Button) findViewById(R.id.button_irish_coffee);
+        irish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Irish_Coffee.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button italianIT = (Button) findViewById(R.id.button_italian_ice_tea);
+        italianIT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Italian_Ice_Tea.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button japIT = (Button) findViewById(R.id.button_japanese_ice_tea);
+        japIT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Japanese_Ice_Tea.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button japSlipper = (Button) findViewById(R.id.button_japanese_slipper);
+        japSlipper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Japanese_Slipper.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button johnCollins = (Button) findViewById(R.id.button_john_collins);
+        johnCollins.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_John_Collins.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button kamikaze = (Button) findViewById(R.id.button_kamikaze);
+        kamikaze.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Kamikaze.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button kir = (Button) findViewById(R.id.button_kir);
+        kir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Kir.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button kirRoyal = (Button) findViewById(R.id.button_kir_royal);
+        kirRoyal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Kir_Royal.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button lemonDM = (Button) findViewById(R.id.button_lemon_drop_martini);
+        lemonDM.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Lemon_Drop_Martini.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button londonIT = (Button) findViewById(R.id.button_london_ice_tea);
+        londonIT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_London_Ice_tea.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button longIIT = (Button) findViewById(R.id.button_long_island_ice_tea);
+        longIIT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Long_Island_Iced_Tea.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button maiTai = (Button) findViewById(R.id.button_mai_tai);
+        maiTai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Mai_Tai.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button manhattan = (Button) findViewById(R.id.button_manhattan);
+        manhattan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Manhattan.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button manhattanDry = (Button) findViewById(R.id.button_manhattan_dry);
+        manhattanDry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Manhattan_Dry.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button manhattanMOP = (Button) findViewById(R.id.button_manhattan_medium_o_perfect);
+        manhattanMOP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Manhattan_Medium_o_Perfect.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button margarita = (Button) findViewById(R.id.button_margarita);
+        margarita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Margarita.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button martiniCocktail = (Button) findViewById(R.id.button_martini_cocktail);
+        martiniCocktail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Martini_Cocktail.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button martiniRB = (Button) findViewById(R.id.button_martini_royal_bianco);
+        martiniRB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Martini_Royal_Bianco.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button martiniRR = (Button) findViewById(R.id.button_martini_royal_rosato);
+        martiniRR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Martini_Royal_Rosato.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button maryPickford = (Button) findViewById(R.id.button_mary_pickford);
+        maryPickford.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Mary_Pickford.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button miamiIT = (Button) findViewById(R.id.button_miami_ice_tea);
+        miamiIT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Miami_Ice_Tea.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button mimosa = (Button) findViewById(R.id.button_mimosa);
+        mimosa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Mimosa.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button mintJulep= (Button) findViewById(R.id.button_mint_julep);
+        mintJulep.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Mint_Julep.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button mojito = (Button) findViewById(R.id.button_mojito);
+        mojito.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Mojito.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button mojitoFidel = (Button) findViewById(R.id.button_mojito_fidel);
+        mojitoFidel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Mojito_Fidel.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button monkeyGland = (Button) findViewById(R.id.button_monkey_gland);
+        monkeyGland.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Monkey_Gland.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button moscowRule = (Button) findViewById(R.id.button_moscow_rule);
+        moscowRule.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Moscow_Mule.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button negroni = (Button) findViewById(R.id.button_negroni);
+        negroni.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Negroni.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button negrosky = (Button) findViewById(R.id.button_negrosky);
+        negrosky.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Negrosky.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button oldFashioned = (Button) findViewById(R.id.button_old_fashioned);
+        oldFashioned.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Old_Fashioned.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button oldPal = (Button) findViewById(R.id.button_old_pal);
+        oldPal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Old_Pal.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button orgasm = (Button) findViewById(R.id.button_orgasm);
+        orgasm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Orgasm.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button paradise = (Button) findViewById(R.id.button_paradise);
+        paradise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Paradise.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button perfectMartini = (Button) findViewById(R.id.button_perfect_martini);
+        perfectMartini.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Perfect_Martini.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button pinaColada = (Button) findViewById(R.id.button_pina_colada);
+        pinaColada.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Pina_Colada.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button piscoSour = (Button) findViewById(R.id.button_pisco_sour);
+        piscoSour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Pisco_Sour.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button plantersPunch = (Button) findViewById(R.id.button_planters_punch);
+        plantersPunch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Planters_Punch.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button portoFlip = (Button) findViewById(R.id.button_porto_flip);
+        portoFlip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Porto_Flip.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button punchCubano = (Button) findViewById(R.id.button_punch_cubano);
+        punchCubano.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Punch_Cubano.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button ramosFizz = (Button) findViewById(R.id.button_ramos_fizz);
+        ramosFizz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Ramos_Fizz.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button robRoy = (Button) findViewById(R.id.button_rob_roy);
+        robRoy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Rob_Roy.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button rose = (Button) findViewById(R.id.button_rose);
+        rose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Rose.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button rumCooler = (Button) findViewById(R.id.button_rum_cooler);
+        rumCooler.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Rum_Cooler.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button russianSP = (Button) findViewById(R.id.button_russian_spring_punch);
+        russianSP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Russian_Spring_Punch.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button rustyNail = (Button) findViewById(R.id.button_rusty_nail);
+        rustyNail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Rusty_Nail.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button saltyDog = (Button) findViewById(R.id.button_salty_dog);
+        saltyDog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Salty_Dog.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button sazerac = (Button) findViewById(R.id.button_sazerac);
+        sazerac.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Sazerac.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button screwDriver = (Button) findViewById(R.id.button_screwdriver);
+        screwDriver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Screwdriver.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button seaBreeze = (Button) findViewById(R.id.button_sea_breeze);
+        seaBreeze.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Sea_Breeze.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button sexOTB = (Button) findViewById(R.id.button_sex_on_the_beach);
+        sexOTB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Sex_On_The_Beach.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button shirleyTemple = (Button) findViewById(R.id.button_shirley_temple);
+        shirleyTemple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Shirley_Temple.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button singSling = (Button) findViewById(R.id.button_singapore_sling);
+        singSling.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Singapore_Sling.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button spritzVen = (Button) findViewById(R.id.button_spritz_veneziano);
+        spritzVen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Spritz_Veneziano.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button stinger = (Button) findViewById(R.id.button_stinger);
+        stinger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Stinger.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button sweetMartini = (Button) findViewById(R.id.button_sweet_martini);
+        sweetMartini.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Sweet_Martini.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button tequilaSunrise = (Button) findViewById(R.id.button_tequila_sunrise);
+        tequilaSunrise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Tequila_Sunrise.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button tommys = (Button) findViewById(R.id.button_tommys_margarita);
+        tommys.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Tommys_Margarita.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button tuxedo = (Button) findViewById(R.id.button_tuxedo);
+        tuxedo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Tuxedo.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button vampiro = (Button) findViewById(R.id.button_vampiro);
+        vampiro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Vampiro.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button vesper = (Button) findViewById(R.id.button_vesper);
+        vesper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Vesper.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button vodkaCooler = (Button) findViewById(R.id.button_vodka_cooler);
+        vodkaCooler.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Vodka_Cooler.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button vodkaMartini = (Button) findViewById(R.id.button_vodka_martini);
+        vodkaMartini.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Vodka_Martini.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button whiskeySour = (Button) findViewById(R.id.button_whiskey_sour);
+        whiskeySour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Whiskey_Sour.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
+        Button whiteLady = (Button) findViewById(R.id.button_B52);
         b52.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -1241,35 +1231,35 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button whiteRussian = (Button) findViewById(R.id.button_white_russian);
+        whiteRussian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_White_Russian.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button whiteSpider = (Button) findViewById(R.id.button_white_spider);
+        whiteSpider.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_White_Spider.class);
                 startActivity(intent);
             }
         });
 
 
-        Button b52 = (Button) findViewById(R.id.button_B52);
-        b52.setOnClickListener(new View.OnClickListener() {
+        Button yellowBird = (Button) findViewById(R.id.button_yellow_bird);
+        yellowBird.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity_B52.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity_Yellow_Bird.class);
                 startActivity(intent);
             }
         });
+
 
-*/
     }
 }
