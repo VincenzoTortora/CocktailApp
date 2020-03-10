@@ -10,38 +10,37 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_gravity="center"
-            app:srcCompat="@mipmap/cocktailamericano" />
+            app:srcCompat="@mipmap/daiquiri" />
 
         <TextView
             android:id="@+id/americano_uno"
-            android:layout_width="130dp"
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Bitter Rosso" />
+            android:text="4,5 cl Rum Light" />
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Vermouth Rosso"
+            android:text="2,5 cl Succo Limone Fresco O Lime"
             android:id="@+id/americano_due"
             />
 
          <TextView
-            android:layout_width="130dp"
+             android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-
-            android:text="Spruzzo di Soda" />
+            android:text="1,5 cl Zucchero Bianco" />
 
     <Button
-        android:layout_width="130dp"
+        android:layout_width="280dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"

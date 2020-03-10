@@ -11,7 +11,7 @@ public class MainActivity_Darkn_Stormy extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_darkn_storm);
+        setContentView(R.layout.activity_darkn_stormy);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

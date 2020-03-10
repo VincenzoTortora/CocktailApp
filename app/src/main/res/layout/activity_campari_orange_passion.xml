@@ -10,41 +10,55 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_gravity="center"
-            app:srcCompat="@mipmap/cocktailamericano" />
+            app:srcCompat="@mipmap/campari_orange_passion" />
 
         <TextView
             android:id="@+id/americano_uno"
-            android:layout_width="130dp"
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Bitter Rosso" />
+            android:text="4 Spicchi Di Arancia" />
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Vermouth Rosso"
+            android:text="1 Cucchiaino Di Zucchero Di Canna"
             android:id="@+id/americano_due"
             />
 
-         <TextView
-            android:layout_width="130dp"
+        <TextView
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
 
-            android:text="Spruzzo di Soda" />
+            android:text="4,5 cl Campari Bitter" />
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="Top Succo D'Arancia" />
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="Ghiaccio Tritato" />
 
-    <Button
-        android:layout_width="130dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="Storia"
-        android:id="@+id/americano_storia"
-        />
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Storia"
+            android:id="@+id/americano_storia"
+            />
 </LinearLayout>

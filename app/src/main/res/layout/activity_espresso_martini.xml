@@ -10,35 +10,42 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_gravity="center"
-            app:srcCompat="@mipmap/cocktailamericano" />
+            app:srcCompat="@mipmap/espresso_martini" />
 
         <TextView
             android:id="@+id/americano_uno"
-            android:layout_width="130dp"
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Bitter Rosso" />
+            android:text="5 cl Vodka" />
 
         <TextView
-            android:layout_width="130dp"
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Vermouth Rosso"
+            android:text="1 cl Liquore Al Caffè"
             android:id="@+id/americano_due"
             />
 
-         <TextView
-            android:layout_width="130dp"
+    <TextView
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
+            android:text="Sciroppo Di Zucchero A Piacere" />
 
-            android:text="Spruzzo di Soda" />
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="1 Espresso Ristretto" />
 
     <Button
         android:layout_width="130dp"

@@ -36,7 +36,6 @@
                             android:text="Americano"
                             />
 
-
                         <Button
                             android:layout_marginTop="10dp"
                             android:id="@+id/button_Alexander"
@@ -45,7 +44,6 @@
                             android:layout_gravity="center"
                             android:text="Alexander"
                             />
-
 
                         <Button
                             android:layout_marginTop="10dp"
@@ -65,7 +63,6 @@
                             android:layout_marginTop="10dp"
                             />
 
-
                         <Button
                             android:layout_marginTop="10dp"
                             android:id="@+id/button_Apple_Martini"
@@ -74,7 +71,6 @@
                             android:layout_gravity="center"
                             android:text="Apple Martini"
                             />
-
 
                         <Button
                             android:layout_marginTop="10dp"
@@ -114,12 +110,8 @@
                             android:layout_gravity="center"
                             />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:text="" />
-
                         <Button
+                            android:layout_marginTop="10dp"
                             android:id="@+id/button_Bellini"
                             android:layout_width="match_parent"
                             android:layout_height="46dp"
@@ -230,7 +222,7 @@
                             android:layout_height="46dp"
                             android:text="Caipirissima"
                             android:layout_gravity="center"
-                        />
+                            />
                         <Button
                             android:layout_marginTop="10dp"
                             android:id="@+id/button_caipirissima_negrita"
@@ -238,2346 +230,829 @@
                             android:layout_height="46dp"
                             android:text="Caipirissima Negrita"
                             android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_caipiroska"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Caipiroska"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_campari_orange_passion"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Campari Orange Passion"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_campari_spritz"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Campari Spritz"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_casino"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Casino"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_champagne_cocktail"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Champagne Cocktail"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_clover_club"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Clover Club"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_cosmopolitan"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Cosmopolitan"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_cuba_libre"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Cuba Libre"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_daiquiri"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Daiquiri"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_daiquiri_up"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Daiquiri Up"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_darkn_storm"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Dark'n'Storm"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_derby"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Derby"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_dirty_martini"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Dirty Martini"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_dry_martini"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Dry Martini"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_espresso_martini"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Espresso Martini"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_florida"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Florida"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_french75"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="French 75"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_french_connection"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="French Connection"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_french_martini"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="French Martini"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_frozen_daiquiri"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Frozen Daiquiri"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_fruit_frozen_margarita"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Fruit Frozen Margarita"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_garibaldi"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Garibaldi"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_gibson"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Gibson"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_gin_and_french"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Gin And French"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_gin_and_it"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Gin And It"
-                        android:layout_gravity="center"
-                        />
+                            />
                         <Button
                             android:layout_marginTop="10dp"
-                        android:id="@+id/button_gin_fizz"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Gin Fizz"
-                        android:layout_gravity="center"
-                        />
+                            android:id="@+id/button_caipiroska"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Caipiroska"
+                            android:layout_gravity="center"
+                            />
+
                         <Button
-                        android:id="@+id/button_god_father"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="God Father"
-                        android:layout_gravity="center"
-                        />
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_campari_orange_passion"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Campari Orange Passion"
+                            android:layout_gravity="center"
+                            />
                         <Button
-                        android:id="@+id/button_god_mother"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="God Mother"
-                        android:layout_gravity="center"
-                        />
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_campari_spritz"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Campari Spritz"
+                            android:layout_gravity="center"
+                            />
+
                         <Button
-                        android:id="@+id/button_golden_cadillac"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Golden Cadillac"
-                        android:layout_gravity="center"
-                        />
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_casino"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Casino"
+                            android:layout_gravity="center"
+                            />
+
                         <Button
-                        android:id="@+id/button_golden_dream"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Golden Dream"
-                        android:layout_gravity="center"
-                        />
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_champagne_cocktail"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Champagne Cocktail"
+                            android:layout_gravity="center"
+                            />
                         <Button
-                        android:id="@+id/button_grasshopper"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_clover_club"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Clover Club"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_cosmopolitan"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Cosmopolitan"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_cuba_libre"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Cuba Libre"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_daiquiri"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Daiquiri"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_daiquiri_up"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Daiquiri Up"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_darkn_storm"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Dark'n'Storm"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_derby"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Derby"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_dirty_martini"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Dirty Martini"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_dry_martini"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Dry Martini"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_espresso_martini"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Espresso Martini"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_florida"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Florida"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_french75"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="French 75"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_french_connection"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="French Connection"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_french_martini"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="French Martini"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_frozen_daiquiri"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Frozen Daiquiri"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_fruit_frozen_margarita"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Fruit Frozen Margarita"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_garibaldi"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Garibaldi"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_gibson"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Gibson"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_gin_and_french"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Gin And French"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_gin_and_it"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Gin And It"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_gin_fizz"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Gin Fizz"
+                            android:layout_gravity="center"
+                            />
+
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_god_father"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="God Father"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_god_mother"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="God Mother"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_golden_cadillac"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Golden Cadillac"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_golden_dream"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Golden Dream"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_grasshopper"
                             android:layout_width="match_parent"
                             android:layout_height="46dp"
                             android:text="Grasshopper"
                             android:layout_gravity="center"
                             />
                         <Button
-                        android:id="@+id/button_harvey_wallbanger"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Harvey Wallbanger"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_hemingway_special"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Hemingway Special"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_horses_neck"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Horse's Neck"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_hugo"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Hugo"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_irish_coffee"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Irish Coffee"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_italian_ice_tea"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Italian Ice Tea"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_japanese_ice_tea"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Japanese Ice Tea"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_japanese_slipper"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Japanese Slipper"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_john_collins"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="John Collins"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_kamikaze"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Kamikaze"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_kir"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Kir"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                                android:id="@+id/button_kir_royal"
-                                android:layout_width="match_parent"
-                                android:layout_height="46dp"
-                                android:text="Kir Royal"
-                                android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_lemon_drop_martini"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Lemon Drop Martini"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_london_ice_tea"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="London Ice Tea"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_long_island_ice_tea"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Long Island Ice Tea"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_mai_tai"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Mai Tai"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_manhattan"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Manhattan"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_manhattan_dry"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Manhattan Dry"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_manhattan_medium_o_perfect"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Manhattan Medium O Perfect"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_margarita"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Margarita"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_martini_cocktail"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Martini Cocktail"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_martini_royal_bianco"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Martini Royal Bianco"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_martini_royal_rosato"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Martini Royal Rosato"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_mary_pickford"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Mary Pickford"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_miami_ice_tea"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Miami Ice Tea"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_mimosa"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Mimosa"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_mint_julep"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Mint Julep"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_mojito"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Mojito"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_mojito_fidel"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Mojito Fidel"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_monkey_gland"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Monkey Gland"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_moscow_rule"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Moscow Rule"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_negroni"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Negroni"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_negrosky"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Negrosky"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_old_fashioned"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Old Fashioned"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_old_pal"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Old Pal"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_orgasm"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Orgasm"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_paradise"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Paradise"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_perfect_martini"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Perfect Martini"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_pina_colada"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Pina Colada"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_pisco_sour"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Pisco Sour"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_planters_punch"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Planter's Punch"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_porto_flip"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Porto Flip"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_punch_cubano"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Punch Cubano"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_ramos_fizz"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Ramos Fizz"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_rob_roy"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Rob Roy"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_rose"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Rose"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_rum_cooler"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Rum Cooler"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_russian_spring_punch"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Russian Spring Punch"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_rusty_nail"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Rusty Nail"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_salty_dog"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Salty Dog"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_sazerac"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Sazerac"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_screwdriver"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Screwdriver"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_sea_breeze"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Sea Breeze"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_sex_on_the_beach"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Sex On The Beach"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_shirley_temple"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Shirley Temple"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_singapore_sling"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Singapore Sling"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_spritz_veneziano"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Spritz Veneziano"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_stinger"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Stinger"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_sweet_martini"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Sweet Martini"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_tequila_sunrise"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Tequila Sunrise"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_tommys_margarita"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Tommy's Margarita"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_tuxedo"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Tuxedo"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_vampiro"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Vampiro"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_vesper"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Vesper"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_vodka_cooler"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Vodka Cooler"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_vodka_martini"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Vodka Martini"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_whiskey_sour"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Whiskey Sour"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_white_lady"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="White Lady"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_white_russian"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="White Russian"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_white_spider"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="White Spider"
-                        android:layout_gravity="center"
-                        />
-                        <Button
-                        android:id="@+id/button_yellow_bird"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:text="Yellow Bird"
-                        android:layout_gravity="center"
-                        />
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_harvey_wallbanger"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Harvey Wallbanger"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_hemingway_special"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Hemingway Special"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_horses_neck"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Horse's Neck"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_hugo"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Hugo"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_irish_coffee"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Irish Coffee"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_italian_ice_tea"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Italian Ice Tea"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_japanese_ice_tea"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Japanese Ice Tea"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_japanese_slipper"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Japanese Slipper"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_john_collins"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="John Collins"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_kamikaze"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Kamikaze"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_kir"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Kir"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_kir_royal"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Kir Royal"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_lemon_drop_martini"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Lemon Drop Martini"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_london_ice_tea"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="London Ice Tea"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_long_island_ice_tea"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Long Island Ice Tea"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:id="@+id/button_mai_tai"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Mai Tai"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_manhattan"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Manhattan"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_manhattan_dry"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Manhattan Dry"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_manhattan_medium_o_perfect"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Manhattan Medium O Perfect"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_margarita"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Margarita"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_martini_cocktail"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Martini Cocktail"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_martini_royal_bianco"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Martini Royal Bianco"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_martini_royal_rosato"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Martini Royal Rosato"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_mary_pickford"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Mary Pickford"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_miami_ice_tea"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Miami Ice Tea"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_mimosa"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Mimosa"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_mint_julep"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Mint Julep"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_mojito"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Mojito"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_mojito_fidel"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Mojito Fidel"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_monkey_gland"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Monkey Gland"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_moscow_rule"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Moscow Rule"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_negroni"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Negroni"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_negrosky"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Negrosky"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_old_fashioned"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Old Fashioned"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_old_pal"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Old Pal"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_orgasm"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Orgasm"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_paradise"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Paradise"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_perfect_martini"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Perfect Martini"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_pina_colada"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Piña Colada"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_pisco_sour"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Pisco Sour"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_planters_punch"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Planter's Punch"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_porto_flip"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Porto Flip"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_punch_cubano"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Punch Cubano"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_ramos_fizz"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Ramos Fizz"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_rob_roy"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Rob Roy"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_rose"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Rose"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_rum_cooler"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Rum Cooler"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_russian_spring_punch"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Russian Spring Punch"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_rusty_nail"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Rusty Nail"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_salty_dog"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Salty Dog"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_sazerac"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Sazerac"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_screwdriver"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Screwdriver"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_sea_breeze"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Sea Breeze"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_sex_on_the_beach"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Sex On The Beach"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_shirley_temple"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Shirley Temple"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_singapore_sling"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Singapore Sling"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_spritz_veneziano"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Spritz Veneziano"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_stinger"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Stinger"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_sweet_martini"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Sweet Martini"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_tequila_sunrise"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Tequila Sunrise"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_tommys_margarita"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Tommy's Margarita"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_tuxedo"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Tuxedo"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_vampiro"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Vampiro"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_vesper"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Vesper"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_vodka_cooler"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Vodka Cooler"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_vodka_martini"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Vodka Martini"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_whiskey_sour"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Whiskey Sour"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_white_lady"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="White Lady"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_white_russian"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="White Russian"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_white_spider"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="White Spider"
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/button_yellow_bird"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:text="Yellow Bird"
+                            android:layout_gravity="center"
+                            />
 
                 </LinearLayout>
         </ScrollView>
-        <!--
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
-
-
-<TextView
-    android:id="@+id/txt"
-    android:layout_width="wrap_content"
-    android:layout_height="10dp"
-    android:text="" />
-
-<Button
-    android:id="@+id/button_Alabama_Slammer"
-    android:layout_width="match_parent"
-    android:layout_height="46dp"
-    android:text="Alabama Slammer"
-    android:layout_gravity="center"
-    />
--->
-
 
 
 </LinearLayout>
