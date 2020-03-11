@@ -10,7 +10,7 @@
             android:layout_width="280dp"
             android:layout_height="130dp"
             android:layout_gravity="center"
-            app:srcCompat="@mipmap/cocktailamericano" />
+            app:srcCompat="@mipmap/garibaldi" />
 
         <TextView
             android:id="@+id/americano_uno"
@@ -19,7 +19,7 @@
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Bitter Rosso" />
+            android:text="4,5 cl campari bittr" />
 
         <TextView
             android:layout_width="280dp"
@@ -27,18 +27,9 @@
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Vermouth Rosso"
+            android:text="Top succo di arancia"
             android:id="@+id/americano_due"
             />
-
-         <TextView
-             android:layout_width="280dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-
-            android:text="Spruzzo di Soda" />
 
     <Button
         android:layout_width="280dp"
