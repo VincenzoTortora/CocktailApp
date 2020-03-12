@@ -24,7 +24,6 @@
         android:text="1/2oz Vodka Liscia" />
 
 
-
     <TextView
         android:layout_width="280dp"
         android:layout_height="20dp"

@@ -10,7 +10,7 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_gravity="center"
-            app:srcCompat="@mipmap/cocktailamericano" />
+            app:srcCompat="@mipmap/hemingwaySpecial" />
 
         <TextView
             android:id="@+id/americano_uno"
@@ -19,7 +19,7 @@
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Bitter Rosso" />
+            android:text="2 oz Rum Bianco" />
 
         <TextView
             android:layout_width="280dp"
@@ -27,18 +27,41 @@
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Vermouth Rosso"
+            android:text="1 1/2 Succo di pompelmo"
             android:id="@+id/americano_due"
             />
 
-         <TextView
-             android:layout_width="280dp"
+        <TextView
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
+            android:text="1/2 oz Maraschino" />
 
-            android:text="Spruzzo di Soda" />
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="1/2 oz Succo fresco di lime" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="Tecnica: Shake&amp;Strain" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="Guarnizione: Oliva verde" />
 
     <Button
         android:layout_width="280dp"
