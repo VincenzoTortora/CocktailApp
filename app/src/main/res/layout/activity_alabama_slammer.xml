@@ -65,11 +65,12 @@
         />
 
     <TextView
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
         tools:ignore="RtlCompat"
+        android:textStyle="bold"
         android:text="Tecnica: Mix&amp;Pour"
         android:id="@+id/tecnica_Al"
         />
