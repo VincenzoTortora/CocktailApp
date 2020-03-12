@@ -19,7 +19,7 @@
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Bitter Rosso" />
+            android:text="3,5 cl Vodka Liscia" />
 
         <TextView
             android:layout_width="280dp"
@@ -27,18 +27,25 @@
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 oz Vermouth Rosso"
+            android:text="3,5 cl Amaretto"
             android:id="@+id/americano_due"
             />
 
-         <TextView
-             android:layout_width="280dp"
+        <TextView
+            android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
+            android:text="Guarnizione: Twist di Arancia" />
 
-            android:text="Spruzzo di Soda" />
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="Tecnica: Build" />
 
     <Button
         android:layout_width="280dp"
