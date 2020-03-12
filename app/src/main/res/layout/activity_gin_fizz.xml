@@ -10,7 +10,7 @@
             android:layout_width="280dp"
             android:layout_height="130dp"
             android:layout_gravity="center"
-            app:srcCompat="@mipmap/ginFizz" />
+            app:srcCompat="@mipmap/cocktailamericano" />
 
         <TextView
             android:id="@+id/americano_uno"
@@ -19,7 +19,7 @@
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1 1/2oz Gin" />
+            android:text="1 oz Bitter Rosso" />
 
         <TextView
             android:layout_width="280dp"
@@ -27,33 +27,18 @@
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="1/2 oz di Sciroppo di zucchero"
+            android:text="1 oz Vermouth Rosso"
             android:id="@+id/americano_due"
             />
 
-        <TextView
-            android:layout_width="280dp"
+         <TextView
+             android:layout_width="280dp"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
-            android:text="Top di soda" />
 
-        <TextView
-            android:layout_width="280dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-            android:text="Guarnizione: Scorza di limone" />
-
-        <TextView
-            android:layout_width="280dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-            android:text="Tecnica: Shake&amp;Strain" />
+            android:text="Spruzzo di Soda" />
 
     <Button
         android:layout_width="280dp"
