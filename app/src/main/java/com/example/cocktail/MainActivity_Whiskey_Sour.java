@@ -13,6 +13,7 @@ public class MainActivity_Whiskey_Sour extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_whiskey_sour);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Whiskey Sour");
     }
 
 

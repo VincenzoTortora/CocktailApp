@@ -13,6 +13,7 @@ public class MainActivity_Long_Island_Iced_Tea extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_long_island_ice_tea);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Long Island Iced Tea");
     }
 
 

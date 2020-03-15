@@ -13,6 +13,7 @@ public class MainActivity_Caipirissima extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caipirissima);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Caipirissima");
     }
 
 

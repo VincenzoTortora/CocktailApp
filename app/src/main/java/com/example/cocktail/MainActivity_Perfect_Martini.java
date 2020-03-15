@@ -14,6 +14,7 @@ public class MainActivity_Perfect_Martini extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfect_martini);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Perfect Martini");
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Japanese_Slipper extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_japanese_slipper);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Japanese Slipper");
     }
 
 

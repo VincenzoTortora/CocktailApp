@@ -13,6 +13,7 @@ public class MainActivity_Ramos_Fizz extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ramos_fizz);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Ramos Fizz");
     }
 
 

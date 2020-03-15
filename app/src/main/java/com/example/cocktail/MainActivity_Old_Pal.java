@@ -13,6 +13,7 @@ public class MainActivity_Old_Pal extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_old_pal);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Old Pal");
     }
 
 

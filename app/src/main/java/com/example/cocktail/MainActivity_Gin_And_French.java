@@ -13,6 +13,7 @@ public class MainActivity_Gin_And_French extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gin_and_french);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Gin And French");
     }
 
 

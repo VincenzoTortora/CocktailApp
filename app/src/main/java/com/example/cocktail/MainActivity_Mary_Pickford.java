@@ -13,6 +13,7 @@ public class MainActivity_Mary_Pickford extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mary_pickford);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Mary Pickford");
     }
 
 

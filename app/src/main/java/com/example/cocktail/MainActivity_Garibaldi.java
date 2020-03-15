@@ -13,6 +13,7 @@ public class MainActivity_Garibaldi extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_garibaldi);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Garibaldi");
     }
 
 

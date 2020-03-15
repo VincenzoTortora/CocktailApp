@@ -13,6 +13,7 @@ public class MainActivity_Champagne_Cocktail extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_champagne_cocktail);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Champagne Cocktail");
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Shirley_Temple extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shirley_temple);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Shirley Temple");
     }
 
 

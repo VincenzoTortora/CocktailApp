@@ -13,6 +13,7 @@ public class MainActivity_Fruit_Frozen_Margarita extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fruit_frozen_margarita);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Fruit Frozen Margarita");
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Grasshopper extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grasshopper);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Grasshopper");
     }
 
 

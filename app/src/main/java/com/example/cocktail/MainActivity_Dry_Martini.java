@@ -13,6 +13,7 @@ public class MainActivity_Dry_Martini extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dry_martini);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Dry Martini");
     }
 
 

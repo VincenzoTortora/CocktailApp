@@ -13,6 +13,7 @@ public class MainActivity_Rob_Roy extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rob_roy);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Rob Roy");
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Campari_Spritz extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campari_spritz);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Campari Spritz");
     }
 
 

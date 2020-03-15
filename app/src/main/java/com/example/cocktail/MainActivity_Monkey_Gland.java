@@ -13,6 +13,7 @@ public class MainActivity_Monkey_Gland extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monkey_gland);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Monkey Gland");
     }
 
 

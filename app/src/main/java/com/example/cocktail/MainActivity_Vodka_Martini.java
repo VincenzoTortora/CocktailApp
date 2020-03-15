@@ -13,6 +13,7 @@ public class MainActivity_Vodka_Martini extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vodka_martini);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Vodka Martini");
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Frozen_Daiquiri extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frozen_daiquiri);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Frozen Daiquiri");
     }
 
 

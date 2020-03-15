@@ -13,6 +13,7 @@ public class MainActivity_Kir extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kir);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Kir");
     }
 
 

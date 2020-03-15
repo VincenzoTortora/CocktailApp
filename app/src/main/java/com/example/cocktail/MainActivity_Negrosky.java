@@ -13,6 +13,7 @@ public class MainActivity_Negrosky extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_negrosky);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Negrosky");
     }
 
 

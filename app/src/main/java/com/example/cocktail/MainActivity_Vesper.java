@@ -13,6 +13,7 @@ public class MainActivity_Vesper extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vesper);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Vesper");
     }
 
 

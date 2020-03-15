@@ -13,6 +13,7 @@ public class MainActivity_Stinger extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stinger);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Stinger");
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Caipiroska extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caipiroska);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Caipiroska");
     }
 
 

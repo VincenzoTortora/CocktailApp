@@ -13,6 +13,7 @@ public class MainActivity_Screwdriver extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screwdriver);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Screwdriver");
     }
 
 

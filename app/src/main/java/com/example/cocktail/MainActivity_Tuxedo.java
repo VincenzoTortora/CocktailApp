@@ -13,6 +13,7 @@ public class MainActivity_Tuxedo extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tuxedo);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Tuxedo");
     }
 
 

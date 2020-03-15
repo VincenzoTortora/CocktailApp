@@ -13,6 +13,7 @@ public class MainActivity_Sea_Breeze extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sea_breeze);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Sea Breeze");
     }
 
 

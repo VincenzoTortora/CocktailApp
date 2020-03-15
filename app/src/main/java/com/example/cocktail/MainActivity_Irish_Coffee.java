@@ -13,6 +13,7 @@ public class MainActivity_Irish_Coffee extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_irish_coffee);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Irish Coffee");
     }
 
 

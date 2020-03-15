@@ -13,6 +13,7 @@ public class MainActivity_Hugo extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hugo);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Hugo");
     }
 
 

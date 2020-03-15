@@ -13,6 +13,7 @@ public class MainActivity_Caipirissima_Negrita extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caipirissima_negrita);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Caipirissima Negrita");
     }
 
 

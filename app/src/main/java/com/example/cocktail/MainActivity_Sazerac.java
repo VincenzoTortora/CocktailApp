@@ -13,6 +13,7 @@ public class MainActivity_Sazerac extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sazerac);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Sazerac");
     }
 
 

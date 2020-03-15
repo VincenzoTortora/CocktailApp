@@ -13,6 +13,7 @@ public class MainActivity_Spritz_Veneziano extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spritz_veneziano);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Spritz Veneziano");
     }
 
 

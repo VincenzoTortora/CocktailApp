@@ -13,6 +13,7 @@ public class MainActivity_Florida extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_florida);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Florida");
     }
 
 

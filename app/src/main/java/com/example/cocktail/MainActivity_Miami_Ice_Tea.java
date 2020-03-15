@@ -13,6 +13,7 @@ public class MainActivity_Miami_Ice_Tea extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_miami_ice_tea);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Miami Ice Tea");
     }
 
 

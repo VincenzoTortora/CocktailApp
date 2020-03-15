@@ -13,6 +13,7 @@ public class MainActivity_Daiquiri_Up extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daiquiri_up);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Daiquiri Up");
     }
 
 

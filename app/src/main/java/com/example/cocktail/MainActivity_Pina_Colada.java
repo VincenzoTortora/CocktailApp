@@ -13,6 +13,7 @@ public class MainActivity_Pina_Colada extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pina_colada);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Piña Colada");
     }
 
 

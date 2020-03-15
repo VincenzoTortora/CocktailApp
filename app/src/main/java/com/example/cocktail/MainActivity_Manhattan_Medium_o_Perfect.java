@@ -13,6 +13,7 @@ public class MainActivity_Manhattan_Medium_o_Perfect extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manhattan_medium_o_perfect);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Manhattan Medium O Perfect");
     }
 
 

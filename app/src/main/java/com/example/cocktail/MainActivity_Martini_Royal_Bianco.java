@@ -13,6 +13,7 @@ public class MainActivity_Martini_Royal_Bianco extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_martini_royal_bianco);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Martini Royal Bianco");
     }
 
 

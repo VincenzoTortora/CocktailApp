@@ -13,6 +13,7 @@ public class MainActivity_Moscow_Mule extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_moscow_rule);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Moscow Rule");
     }
 
 

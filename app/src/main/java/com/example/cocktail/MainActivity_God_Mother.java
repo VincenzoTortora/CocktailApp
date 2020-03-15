@@ -13,6 +13,7 @@ public class MainActivity_God_Mother extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_god_mother);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("God Mother");
     }
 
 

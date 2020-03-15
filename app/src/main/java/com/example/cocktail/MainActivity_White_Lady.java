@@ -13,6 +13,7 @@ public class MainActivity_White_Lady extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_white_lady);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("White Lady");
     }
 
 

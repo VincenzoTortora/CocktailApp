@@ -13,6 +13,7 @@ public class MainActivity_French_Connection extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_french_connection);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("French Connection");
     }
 
 

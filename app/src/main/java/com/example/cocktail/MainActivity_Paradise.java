@@ -13,6 +13,7 @@ public class MainActivity_Paradise extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paradise);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Paradise");
     }
 
 

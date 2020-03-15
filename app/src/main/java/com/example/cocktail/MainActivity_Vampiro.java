@@ -13,6 +13,7 @@ public class MainActivity_Vampiro extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vampiro);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Vampiro");
     }
 
 

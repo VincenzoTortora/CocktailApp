@@ -13,6 +13,7 @@ public class MainActivity_Golden_Dream extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_golden_dream);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Golden Dream");
     }
 
 

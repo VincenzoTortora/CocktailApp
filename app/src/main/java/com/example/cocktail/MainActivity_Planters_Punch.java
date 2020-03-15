@@ -13,6 +13,7 @@ public class MainActivity_Planters_Punch extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_planters_punch);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Planters Punch");
     }
 
 

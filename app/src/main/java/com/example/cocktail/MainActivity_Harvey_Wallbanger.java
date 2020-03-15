@@ -13,6 +13,7 @@ public class MainActivity_Harvey_Wallbanger extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_harvey_wallbanger);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Harvey Wallbanger");
     }
 
 

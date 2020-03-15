@@ -13,6 +13,7 @@ public class MainActivity_Kir_Royal extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kir_royal);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Kir Royal");
     }
 
 

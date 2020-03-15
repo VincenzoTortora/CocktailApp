@@ -13,6 +13,7 @@ public class MainActivity_Dirty_Martini extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dirty_martin);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Dirty Martini");
     }
 
 

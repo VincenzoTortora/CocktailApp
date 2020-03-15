@@ -13,6 +13,7 @@ public class MainActivity_Caipirinha extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caipirinha);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Caipirinha");
     }
 
 

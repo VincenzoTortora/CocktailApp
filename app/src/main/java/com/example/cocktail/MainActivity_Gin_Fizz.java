@@ -13,6 +13,7 @@ public class MainActivity_Gin_Fizz extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gin_fizz);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Gin Fizz");
     }
 
 

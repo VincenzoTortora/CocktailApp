@@ -13,6 +13,7 @@ public class MainActivity_Campari_Orange_passion extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campari_orange_passion);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Campari Orange Passione");
     }
 
 

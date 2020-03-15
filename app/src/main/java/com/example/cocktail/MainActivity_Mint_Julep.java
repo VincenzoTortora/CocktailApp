@@ -13,6 +13,7 @@ public class MainActivity_Mint_Julep extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mint_julep);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Mint Julep");
     }
 
 

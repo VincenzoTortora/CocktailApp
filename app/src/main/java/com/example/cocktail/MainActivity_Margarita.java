@@ -13,6 +13,7 @@ public class MainActivity_Margarita extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_margarita);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Margarita");
     }
 
 

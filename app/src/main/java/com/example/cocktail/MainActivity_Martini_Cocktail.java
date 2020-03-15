@@ -13,6 +13,7 @@ public class MainActivity_Martini_Cocktail extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_martini_cocktail);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Martini Cocktail");
     }
 
 

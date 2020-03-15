@@ -13,6 +13,7 @@ public class MainActivity_Martini_Royal_Rosato extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_martini_royal_rosato);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Martini Royal Rosato");
     }
 
 

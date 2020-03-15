@@ -13,6 +13,7 @@ public class MainActivity_Rum_Cooler extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rum_cooler);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Rum Cooler");
     }
 
 

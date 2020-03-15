@@ -13,6 +13,7 @@ public class MainActivity_Porto_Flip extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_porto_flip);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Porto Flip");
     }
 
 

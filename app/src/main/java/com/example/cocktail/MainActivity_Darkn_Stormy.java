@@ -13,6 +13,7 @@ public class MainActivity_Darkn_Stormy extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_darkn_stormy);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Dark'n'Stormy");
     }
 
 

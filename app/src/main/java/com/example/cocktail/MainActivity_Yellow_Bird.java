@@ -13,6 +13,7 @@ public class MainActivity_Yellow_Bird extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yellow_bird);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Yellow Bird");
     }
 
 

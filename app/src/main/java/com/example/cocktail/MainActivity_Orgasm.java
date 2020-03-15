@@ -13,6 +13,7 @@ public class MainActivity_Orgasm extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_orgasm);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Orgasm");
     }
 
 

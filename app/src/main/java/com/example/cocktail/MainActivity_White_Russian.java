@@ -13,6 +13,7 @@ public class MainActivity_White_Russian extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_white_russian);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("White Russian");
     }
 
 

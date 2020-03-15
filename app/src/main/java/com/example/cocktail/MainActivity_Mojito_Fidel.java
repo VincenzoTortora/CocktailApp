@@ -13,6 +13,7 @@ public class MainActivity_Mojito_Fidel extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mojito_fidel);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Mojito Fidel");
     }
 
 

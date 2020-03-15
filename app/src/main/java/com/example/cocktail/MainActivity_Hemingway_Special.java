@@ -13,6 +13,7 @@ public class MainActivity_Hemingway_Special extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hemingway_special);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Hemingway Special");
     }
 
 

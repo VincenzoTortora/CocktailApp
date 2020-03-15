@@ -13,6 +13,7 @@ public class MainActivity_Rose extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rose);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Rose");
     }
 
 

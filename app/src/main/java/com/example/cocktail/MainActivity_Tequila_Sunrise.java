@@ -13,6 +13,7 @@ public class MainActivity_Tequila_Sunrise extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tequila_sunrise);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Tequila Sunrise");
     }
 
 

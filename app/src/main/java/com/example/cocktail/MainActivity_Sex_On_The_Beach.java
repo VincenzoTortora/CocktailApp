@@ -13,6 +13,7 @@ public class MainActivity_Sex_On_The_Beach extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sex_on_the_beach);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Sex On The Beach");
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Cosmopolitan extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cosmopolitan);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Cosmopolitan");
     }
 
 

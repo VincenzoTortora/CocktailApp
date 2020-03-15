@@ -13,6 +13,7 @@ public class MainActivity_Manhattan_Dry extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manhattan_dry);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Manhattan Dry");
     }
 
 

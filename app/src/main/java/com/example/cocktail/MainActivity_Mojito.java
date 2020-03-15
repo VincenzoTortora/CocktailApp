@@ -13,6 +13,7 @@ public class MainActivity_Mojito extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mojito);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Mojito");
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Singapore_Sling extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singapore_sling);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Singapore Sling");
     }
 
 

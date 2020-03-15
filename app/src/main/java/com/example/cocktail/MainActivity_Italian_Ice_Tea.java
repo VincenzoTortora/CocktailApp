@@ -13,6 +13,7 @@ public class MainActivity_Italian_Ice_Tea extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_italian_ice_tea);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Italian Ice Tea");
     }
 
 

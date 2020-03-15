@@ -13,6 +13,7 @@ public class MainActivity_Mimosa extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mimosa);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Mimosa");
     }
 
 

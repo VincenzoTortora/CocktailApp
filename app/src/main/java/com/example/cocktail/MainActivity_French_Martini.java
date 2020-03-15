@@ -13,6 +13,7 @@ public class MainActivity_French_Martini extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_french_martini);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("French Martini");
     }
 
 

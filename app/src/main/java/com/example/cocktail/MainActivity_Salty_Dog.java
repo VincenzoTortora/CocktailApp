@@ -13,6 +13,7 @@ public class MainActivity_Salty_Dog extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_salty_dog);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Salty Dog");
     }
 
 

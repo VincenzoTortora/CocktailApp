@@ -13,6 +13,7 @@ public class MainActivity_Punch_Cubano extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_punch_cubano);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Punch Cubano");
     }
 
 

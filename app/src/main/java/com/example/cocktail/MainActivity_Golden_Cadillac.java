@@ -13,6 +13,7 @@ public class MainActivity_Golden_Cadillac extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_golden_cadillac);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Golden Cadillac");
     }
 
 

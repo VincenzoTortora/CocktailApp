@@ -13,6 +13,7 @@ public class MainActivity_Kamikaze extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kamikaze);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Kamikaze");
     }
 
 

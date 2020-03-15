@@ -13,6 +13,7 @@ public class MainActivity_Negroni extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_negroni);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Negroni");
     }
 
 

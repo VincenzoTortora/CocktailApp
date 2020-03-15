@@ -13,6 +13,7 @@ public class MainActivity_Cuba_Libre extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuba_libre);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Cuba Libre");
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Horses_Neck extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_horses_neck);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Horse's Neck");
     }
 
 

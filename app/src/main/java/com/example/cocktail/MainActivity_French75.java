@@ -13,6 +13,7 @@ public class MainActivity_French75 extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_french75);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("French 75");
     }
 
 

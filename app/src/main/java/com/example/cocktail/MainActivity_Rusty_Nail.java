@@ -13,6 +13,7 @@ public class MainActivity_Rusty_Nail extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rusty_nail);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Rusty Nail");
     }
 
 

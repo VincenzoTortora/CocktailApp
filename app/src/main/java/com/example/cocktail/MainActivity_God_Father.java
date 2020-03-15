@@ -13,6 +13,7 @@ public class MainActivity_God_Father extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_god_father);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("God Father");
     }
 
 

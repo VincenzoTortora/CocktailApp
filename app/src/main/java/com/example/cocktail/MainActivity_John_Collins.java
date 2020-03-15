@@ -13,6 +13,7 @@ public class MainActivity_John_Collins extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_john_collins);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("John Collins");
     }
 
 

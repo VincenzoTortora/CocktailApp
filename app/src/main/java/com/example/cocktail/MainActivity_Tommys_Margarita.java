@@ -13,6 +13,7 @@ public class MainActivity_Tommys_Margarita extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tommys_margarita);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Tommy's Margarita");
     }
 
 

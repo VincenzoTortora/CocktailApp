@@ -13,6 +13,7 @@ public class MainActivity_Mai_Tai extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mai_tai);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Mai Tai");
     }
 
 

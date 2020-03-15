@@ -13,6 +13,7 @@ public class MainActivity_White_Spider extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_white_spider);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("White Spider");
     }
 
 

@@ -13,6 +13,7 @@ public class MainActivity_Manhattan extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manhattan);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Manhattan");
     }
 
 

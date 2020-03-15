@@ -13,6 +13,7 @@ public class MainActivity_Sweet_Martini extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sweet_martini);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Sweet Martini");
     }
 
 
