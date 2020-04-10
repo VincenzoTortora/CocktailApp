@@ -10,7 +10,7 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_gravity="center"
-            app:srcCompat="@mipmap/cocktailamericano" />
+            app:srcCompat="@mipmap/kir" />
 
         <TextView
             android:id="@+id/americano_uno"
