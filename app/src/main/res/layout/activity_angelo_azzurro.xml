@@ -15,7 +15,7 @@
 
      <TextView
          android:id="@+id/uno"
-         android:layout_width="280dp"
+         android:layout_width="match_parent"
          android:layout_height="20dp"
          android:layout_gravity="center"
          android:textAlignment="viewStart"
@@ -24,7 +24,7 @@
          android:text="1,50 cl Vodka" />
 
      <TextView
-         android:layout_width="280dp"
+         android:layout_width="match_parent"
          android:layout_height="20dp"
          android:layout_gravity="center"
          android:textAlignment="viewStart"
@@ -36,7 +36,7 @@
 
     <TextView
         android:id="@+id/tre"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -46,7 +46,7 @@
 
     <TextView
         android:id="@+id/quattro"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -55,7 +55,7 @@
         android:text="1,50 cl Blu Curacao" />
     <TextView
         android:id="@+id/cinque"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -65,7 +65,7 @@
 
 
     <Button
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"

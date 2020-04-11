@@ -2,38 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            app:srcCompat="@mipmap/black_russian" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/black_russian" />
 
-        <TextView
+    <TextView
             android:id="@+id/americano_uno"
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
             android:text="5 cl Vodka" />
 
-        <TextView
-            android:layout_width="280dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-            android:text="2 cl Coffee Liqueur"
-            android:id="@+id/americano_due"
-            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="2 cl Coffee Liqueur"
+        android:id="@+id/americano_due"
+        />
 
 
     <Button
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"

@@ -14,26 +14,26 @@
 
         <TextView
             android:id="@+id/americano_uno"
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
             android:text="6 cl Rum Scuro" />
 
-         <TextView
-             android:layout_width="280dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-            android:text="10 cl Ginger Beer" />
+        <TextView
+             android:layout_width="match_parent"
+             android:layout_height="20dp"
+             android:layout_gravity="center"
+             android:textAlignment="viewStart"
+             tools:ignore="RtlCompat"
+             android:text="10 cl Ginger Beer" />
 
-    <Button
-        android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="Storia"
-        android:id="@+id/americano_storia"
-        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Storia"
+            android:id="@+id/americano_storia"
+            />
 </LinearLayout>

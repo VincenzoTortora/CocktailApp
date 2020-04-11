@@ -14,7 +14,7 @@
 
         <TextView
             android:id="@+id/americano_uno"
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -22,7 +22,7 @@
             android:text="4,5 cl Bacardi Rum Light" />
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -32,19 +32,19 @@
             />
 
          <TextView
-             android:layout_width="280dp"
-            android:layout_height="20dp"
+             android:layout_width="match_parent"
+             android:layout_height="20dp"
+             android:layout_gravity="center"
+             android:textAlignment="viewStart"
+             tools:ignore="RtlCompat"
+
+             android:text="Spruzzo di Soda" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
             android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-
-            android:text="Spruzzo di Soda" />
-
-    <Button
-        android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="Storia"
-        android:id="@+id/americano_storia"
-        />
+            android:text="Storia"
+            android:id="@+id/americano_storia"
+            />
 </LinearLayout>

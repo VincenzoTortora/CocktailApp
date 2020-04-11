@@ -13,44 +13,43 @@
        app:srcCompat="@mipmap/between_the_sheets" />
 
     <TextView
-       android:id="@+id/americano_uno"
-       android:layout_width="280dp"
-       android:layout_height="20dp"
-       android:layout_gravity="center"
-       android:textAlignment="viewStart"
-       tools:ignore="RtlCompat"
-       android:text="3 cl Rum Bianco" />
-
-    <TextView
-       android:layout_width="280dp"
-       android:layout_height="20dp"
-       android:layout_gravity="center"
-       android:textAlignment="viewStart"
-       tools:ignore="RtlCompat"
-       android:text="3 cl Cognac"
-       android:id="@+id/americano_due"
-       />
-
-    <TextView
-        android:layout_width="280dp"
-       android:layout_height="20dp"
-       android:layout_gravity="center"
-       android:textAlignment="viewStart"
-       tools:ignore="RtlCompat"
-
-       android:text="3 cl Triple Sec" />
-
-    <TextView
-        android:layout_width="280dp"
+        android:id="@+id/americano_uno"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
         tools:ignore="RtlCompat"
+        android:text="3 cl Rum Bianco" />
 
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="3 cl Cognac"
+        android:id="@+id/americano_due"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="3 cl Triple Sec" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
         android:text="2 cl Succo Fresco Di Limone" />
 
     <Button
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"

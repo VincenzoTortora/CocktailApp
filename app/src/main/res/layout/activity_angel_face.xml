@@ -15,7 +15,7 @@
 
     <TextView
         android:id="@+id/americano_uno"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -24,7 +24,7 @@
        android:text="3 cl Gin" />
 
     <TextView
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -36,7 +36,7 @@
 
     <TextView
         android:id="@+id/uno"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -45,7 +45,7 @@
         android:text="3 cl Calvados" />
 
     <Button
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"

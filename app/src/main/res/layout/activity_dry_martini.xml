@@ -13,28 +13,27 @@
             app:srcCompat="@mipmap/dry_martini" />
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
             android:text="6 cl Gin"
-            android:id="@+id/americano_due"
-            />
+            android:id="@+id/americano_due"/>
 
-         <TextView
-             android:layout_width="280dp"
-            android:layout_height="20dp"
+        <TextView
+             android:layout_width="match_parent"
+             android:layout_height="20dp"
+             android:layout_gravity="center"
+             android:textAlignment="viewStart"
+             tools:ignore="RtlCompat"
+             android:text="1 cl Vermut Dry" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
             android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-            android:text="1 cl Vermut Dry" />
+            android:text="Storia"
+            android:id="@+id/americano_storia"/>
 
-    <Button
-        android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="Storia"
-        android:id="@+id/americano_storia"
-        />
 </LinearLayout>

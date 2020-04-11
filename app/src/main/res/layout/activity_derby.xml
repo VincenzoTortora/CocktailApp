@@ -14,7 +14,7 @@
 
         <TextView
             android:id="@+id/americano_uno"
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -22,7 +22,7 @@
             android:text="6 cl Gin" />
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -31,19 +31,19 @@
             android:id="@+id/americano_due"
             />
 
-         <TextView
-             android:layout_width="280dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:textAlignment="viewStart"
-            tools:ignore="RtlCompat"
-            android:text="2 Foglie Fresche Di Menta" />
+        <TextView
+             android:layout_width="match_parent"
+             android:layout_height="20dp"
+             android:layout_gravity="center"
+             android:textAlignment="viewStart"
+             tools:ignore="RtlCompat"
+             android:text="2 Foglie Fresche Di Menta" />
 
-    <Button
-        android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="Storia"
-        android:id="@+id/americano_storia"
-        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Storia"
+            android:id="@+id/americano_storia"
+            />
 </LinearLayout>

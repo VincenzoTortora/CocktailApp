@@ -14,7 +14,7 @@
 
         <TextView
             android:id="@+id/americano_uno"
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -22,28 +22,27 @@
             android:text="4 cl Campari" />
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
             android:text="Fill Prosecco O Vino Bianco"
-            android:id="@+id/americano_due"
-            />
+            android:id="@+id/americano_due"/>
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
             tools:ignore="RtlCompat"
             android:text="Top Soda" />
 
-    <Button
-        android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="Storia"
-        android:id="@+id/americano_storia"
-        />
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Storia"
+            android:id="@+id/americano_storia"/>
+
 </LinearLayout>

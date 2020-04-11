@@ -14,7 +14,7 @@
 
     <TextView
         android:id="@+id/boulevader_uno"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -23,7 +23,7 @@
 
     <TextView
         android:id="@+id/boulevader_due"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -32,7 +32,7 @@
 
     <TextView
         android:id="@+id/boulevader_tre"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -41,7 +41,7 @@
 
 
     <Button
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"

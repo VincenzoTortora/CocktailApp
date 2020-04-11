@@ -16,7 +16,7 @@
 
     <TextView
         android:id="@+id/uno"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -25,7 +25,7 @@
 
 
     <TextView
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -35,7 +35,7 @@
         />
 
     <TextView
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -44,7 +44,7 @@
         android:id="@+id/tre"
         />
     <TextView
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -54,7 +54,7 @@
         />
 
     <TextView
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
@@ -68,15 +68,15 @@
         android:layout_height="20dp"
         android:layout_gravity="center"
         android:textAlignment="viewStart"
-        tools:ignore="RtlCompat"
         android:textStyle="bold"
+        tools:ignore="RtlCompat"
         android:text="Tecnica: Mix&amp;Pour"
         android:id="@+id/tecnica_Al"
         />
 
     <Button
         android:id="@+id/storia_alabama_slammer"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia" />
