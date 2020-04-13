@@ -14,7 +14,7 @@
 
         <TextView
             android:id="@+id/americano_uno"
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -22,7 +22,7 @@
             android:text="2 oz Rum Bianco" />
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -32,7 +32,7 @@
             />
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -40,7 +40,7 @@
             android:text="1/2 oz Maraschino" />
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -48,7 +48,7 @@
             android:text="1/2 oz Succo fresco di lime" />
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -56,7 +56,7 @@
             android:text="Tecnica: Shake&amp;Strain" />
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:textAlignment="viewStart"
@@ -64,7 +64,7 @@
             android:text="Guarnizione: Oliva verde" />
 
     <Button
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia"
