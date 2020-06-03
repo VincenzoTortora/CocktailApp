@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/espresso_martini" />
+
+        <TextView
+            android:id="@+id/americano_uno"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="5 cl Vodka" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="1 cl Liquore Al Caffè"
+            android:id="@+id/americano_due"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="Sciroppo Di Zucchero A Piacere" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="1 Espresso Ristretto" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Storia"
+            android:id="@+id/americano_storia"/>
+
+</LinearLayout>

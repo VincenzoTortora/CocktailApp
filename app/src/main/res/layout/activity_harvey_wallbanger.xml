@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/harveyWallbanger" />
+
+        <TextView
+            android:id="@+id/americano_uno"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="1 1/2 oz Vodka Liscia" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="3 oz Succo d'arancia fresco"
+            android:id="@+id/americano_due"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="1/2 oz Liquore Galliano galleggiante in superfice"
+            android:id="@+id/americano_due"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="Tecnica: Build"
+            android:id="@+id/americano_due"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+            android:text="Guarnizione: Ciliegina al maraschino e mezza fetta di arancia"
+            android:id="@+id/americano_due"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Storia"
+        android:id="@+id/americano_storia"
+        />
+</LinearLayout>
