@@ -1,67 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="130dp"
-        android:layout_height="170dp"
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         android:layout_gravity="center"
         app:srcCompat="@mipmap/alabama_slammer" />
 
     <TextView
         android:id="@+id/uno"
-        android:layout_width="130dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
         android:text="1/2oz Vodka Liscia" />
 
+
     <TextView
-        android:layout_width="70dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
-        android:text="1/2oz Gin"
         android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="1/2oz Gin"
         android:id="@+id/due"
         />
 
     <TextView
-        android:layout_width="160dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
-        android:text="1/2oz Southen Comfort"
         android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="1/2oz Gin"
         android:id="@+id/tre"
         />
-
     <TextView
-        android:layout_width="180dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
-        android:text="1/2oz Amaretto Disaronno"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="1/2oz Gin"
         android:id="@+id/quattro"
         />
 
     <TextView
-        android:layout_width="140dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
         android:text="4oz Succo di Arancia"
         android:id="@+id/cinque"
         />
 
     <TextView
-        android:layout_width="130dp"
+        android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat"
         android:text="Tecnica: Mix&amp;Pour"
         android:id="@+id/tecnica_Al"
         />
 
     <Button
         android:id="@+id/storia_alabama_slammer"
-        android:layout_width="130dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Storia" />

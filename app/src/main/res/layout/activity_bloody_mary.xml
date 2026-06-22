@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="match_parent"
+       android:layout_height="130dp"
+       android:layout_gravity="center"
+       app:srcCompat="@mipmap/bloody_mary" />
+
+    <TextView
+        android:id="@+id/americano_uno"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="4,5 cl Vodka" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="9 cl Succo Di Pomodoro"
+        android:id="@+id/americano_due"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="1,5 cl Succo Di Limone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="1,5 cl Succo Di Limone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="2 O 3 Gocce Worcestershire Sauce" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="Tabasco" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="Sale Di Sedano" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="Pepe" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Storia"
+        android:id="@+id/americano_storia"
+        />
+</LinearLayout>

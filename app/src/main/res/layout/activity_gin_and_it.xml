@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/gin_and_it" />
+
+    <TextView
+        android:id="@+id/americano_uno"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="6 cl Gin" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat"
+        android:text="1,5 cl Vermouth Rosso"
+        android:id="@+id/americano_due"
+        />
+
+         <TextView
+             android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlCompat"
+
+            android:text="Guarnizione: Cilieggia al maraschino" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Storia"
+        android:id="@+id/americano_storia"
+        />
+</LinearLayout>
